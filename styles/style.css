@@ -10,9 +10,11 @@
     }
   
         /*........... shared style..............*/
-.font1{ font-size: 32px; font-weight: 800;}
+.font1{ font-size: 40px; font-weight: 800;}
 .font2{ font-size: 24px; font-weight: 700; color: rgba(13, 19, 33, 0.7);}
 .font3{color: rgb(13, 19, 33);}
+.card-title{color: rgb(13, 19, 33);font-weight:900; font-size: 28px;}
+   
     
 .common-button{
     width: 171px;
@@ -178,10 +180,51 @@ text-decoration: none;
         text-align: center;
         margin: 0 auto;
         margin-top: 50px;
-        padding: 30px;
+         padding: 20px; 
         border-radius: 16px;
          box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px; 
     }
-    
+
+    /* .............target-1 section start.......*/
+    .target{   
+        width: 90%;
+        height: 500px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .target-text{  
+        width: 90%;
+        text-align: center;
+        margin-bottom:50px ;
+    }
+    .target-img{  
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        width: 70%;
+    }
+    .target-img >div{ 
+        width: 90%;
+        box-sizing: border-box;
+        width: 360px;
+        height: 300px;
+        padding: 40px;
+        border-radius: 16px;
+    }
+    .first{
+        background-color: #fff6f4 ;
+    }
+    .second{
+        background-color:  #f2f6fe ;
+    }
+    .third{
+        background-color:  #fffdf2;
+    }
