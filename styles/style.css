@@ -44,7 +44,7 @@ text-decoration: none;
 .marT-16{    margin-top: 24px;}
 .marB-16{    margin-top: 24px;}
 /* navbar */
-.nav-container{ border: 2px solid red;
+.nav-container{
     width: 90%;
     height: 100px;
     margin: 0 auto;
