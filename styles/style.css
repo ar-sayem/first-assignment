@@ -19,10 +19,11 @@
 .common-button{
     width: 171px;
 height: 47px;
-    box-sizing: border-box;
+ box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 margin: 32px 0px;
+padding: 3px;
 font-size: 16px;
 text-decoration: none;
 }
@@ -228,3 +229,39 @@ text-decoration: none;
     .third{
         background-color:  #fffdf2;
     }
+    /* ............support section............. */
+.support-container{    
+    width: 90%;
+    height: 400px ;
+    margin: 0 auto;
+    margin-bottom: 80px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: url(/assets/handshake.jpg);
+    background-size: cover;
+    border-radius: 16px;
+     background-color: rgba(0,0,0,.4);
+    background-blend-mode: overlay; 
+}
+.support-content {   
+    height: 85%;
+    text-align: center;
+    color: white;
+}
+input[type=text]{
+    width:540px ;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+
+}
+button{
+    width: 120px;
+    padding: 20px;
+    border-radius: 8px;
+}
